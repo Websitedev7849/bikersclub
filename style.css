@@ -160,6 +160,11 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.user p span{
+    font-size: 20px;
+    color: white;
+}
+
 .credentials {
     margin-top: 12%;
     padding: 8%;

@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    background: url("adventure-wallpaper-hd-27.jpg");    
+    background: linear-gradient(to bottom right, #606c88,#3f4c6b);    
     background-attachment: fixed;
     background-size: cover;
     margin: 0%;

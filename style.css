@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    background-color: linear-gradient(to bottom right, #606c88,#3f4c6b);    
+    background: linear-gradient(to bottom right, #606c88,#3f4c6b);    
     margin: 0%;
     padding: 0%;
     position: relative;

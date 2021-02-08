@@ -3,6 +3,7 @@ var menuList = document.getElementsByClassName('menuList')[0];
 var main = document.getElementsByClassName('main')[0];
 var list =  Array.from(document.getElementsByClassName('options2')[0].children);
 
+document.body.style.height = window.innerHeight;
 
 var closeMenuList = function () {
     menu.children[1].style.display = "flex";

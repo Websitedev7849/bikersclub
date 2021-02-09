@@ -9,7 +9,7 @@ html{
 
 body{
     background: linear-gradient(to bottom right, #606c88,#3f4c6b);    
-    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     margin: 0%;
     padding: 0%;

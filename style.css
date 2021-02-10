@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(to bottom right , #606c88, #3f4c6b);   
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    margin-bottom: 20%;
+    overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 151px;
+    background-color: rgb(247, 197, 59);
+}
+.navbar {
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+#logo{
+    font-size: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    flex-direction: column;
+}
+
+.menu div{
+    margin-bottom: 9px;
+    height: 10px;
+    width: 65px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 35px;
+    transition: transform 0.2s;
+}
+
+
+.menuList{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 55%;
+    background-color: rgb(247, 197, 59);;
+    transition: transform 0.2s;
+    z-index: 2;
+}
+
+.options2{
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.options2 li{
+    margin-top: -120px;
+    list-style: none;
+    font-size: 60px;
+}
+
+.options2 li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.options{
+    display: none;
+}
+
+
+
+.wlctext , .tours{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wlctext h1{
+    margin-top: 14%;
+    color: white;
+    font-size: 70px;
+    font-family: cursive;
+}
+
+.wlctext p{
+    color: rgb(199, 204, 207);
+    font-size: 58px;
+    width: 80vw;
+    margin-bottom: 50px;
+}
+
+.wlctext a{
+    text-decoration: none;
+    padding: 13px 10px;
+    transition: background-color 0.3s ease-out;
+}
+.wlctext a
+{
+    color: white;
+    font-size: 60px;
+    padding: 20px 20px;
+    background-color: rgb(240, 166, 29);
+    border: 3px solid rgb(240, 166, 29);
+}
+
+
+.wlctext a:nth-child(4){
+    background-color: transparent;
+}
+
+
+
+.tours{
+    height: 92vh;
+    margin-top: 5%;
+}
+
+.ourTours{
+    margin-top: -15%;
+    height: 60%;
+    width: 16%;
+    padding-left: 70%;
+    overflow-x: scroll;
+}
+
+.cards{
+    position: relative;
+    height: 40%;
+    margin-top: -180%;
+    margin-left: 60px;
+    box-shadow: 0 0 96px rgb(0, 0, 0);
+}
+
+.cards:nth-child(1){
+    margin-left: 200vw;
+}
+
+.cards img{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.cards p{
+    padding: 10px 110px;
+}
+
+.cards p:nth-child(2) ,.cards p:nth-child(3){
+    color: white;
+    background-color: black;
+    width: 40%;
+    margin-left: 30px;
+}
+
+.cards p:nth-child(2){
+    transform: translateY(-200px);
+    font-size: 60px;
+}
+
+.cards p:nth-child(3){
+    transform: translateY(-190px);
+    font-size: 40px;
+}
+
+
+.nextTour{
+    margin-top: 0%;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    width: 90%;
+    opacity: 0;
+    box-shadow: 0 0 96px rgba(0, 0, 0, 0.197);
+    transition: all 1s;
+}
+
+.nextTour p{
+    margin-bottom: 40px;
+}
+
+.nextTour p:nth-child(1) , .tours h1{
+    color: whitesmoke;
+    font-size: 90px;
+}
+
+.nextTour p:nth-child(2){
+    font-size: 80px;
+    background: linear-gradient(to right bottom , black , black);
+    color: white;
+    padding: 10px 15px;
+    
+}
+.nextTour p:nth-child(3){
+    font-size: 60px;
+    /* margin-left: 60px; */
+    background: linear-gradient(to right bottom , black , black);
+    color: white;
+    padding: 10px;
+    padding: 10px 15px;
+}
+
+.nextTour p:nth-child(3) span{
+    display: inline;
+    color: rgb(206, 22, 22);
+}
+
+
+
+
+
+
+/* css for desktop */
+@media only screen and (min-width:1000px){
+    .head{
+        background-color:  rgb(247, 59, 59);
+    }
+
+    .options li{
+        display: inline-flex;
+        text-decoration: none;
+        margin: 0px 10px ;
+        font-size: 26px ;
+        color: white;
+        transition: all 0.3s ease-out;
+    
+    }
+
+    .options li:hover{
+        cursor: pointer;
+        color: rgb(29, 103, 240);
+    }
+
+    .menuList{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
